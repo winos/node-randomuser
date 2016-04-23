@@ -1,3 +1,7 @@
+# 1.2.0 - Updated mainEnpoint RandomUser API
+* Delete
+  - Remove makeFile
+  
 # 1.1.0 - Updated RandomUser API URL
 
 * Updated API baseURL to new format

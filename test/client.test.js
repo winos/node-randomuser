@@ -1,7 +1,7 @@
-/** 
+/**
  * Tests for RandomUser Node client
  * Test Framework: Mocha (http://visionmedia.github.io/mocha/)
- * Assertions: Should (https://github.com/visionmedia/should.js/) 
+ * Assertions: Should (https://github.com/visionmedia/should.js/)
  */
 var RandomUser = require('..')
   , should = require('should')
@@ -13,7 +13,7 @@ beforeEach(function(){
 
 describe('r.getUsers()', function() {
   this.timeout(15000);
-  
+
   it('should throw error if callback is not typeof function', function () {
     (function() {
       r.getUsers(null, null, 'string');
